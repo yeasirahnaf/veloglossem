@@ -2,7 +2,7 @@
 
 > **Effortlessly generate professional documentation using artificial intelligence**
 
-Transform your code, ideas, and requirements into beautifully formatted markdown documentation in real-time. Powered by OpenAI's advanced language models, this tool streamlines the entire documentation workflow.
+Transform your code, ideas, and requirements into beautifully formatted markdown documentation in real-time. Powered by Google's Gemini 2.5 AI, this tool streamlines the entire documentation workflow.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Next.js](https://img.shields.io/badge/Next.js-14+-black?logo=next.js)](https://nextjs.org/)
@@ -65,7 +65,7 @@ Full dark mode support with carefully chosen colors for comfortable reading and 
 | **Styling** | [Tailwind CSS](https://tailwindcss.com/) + [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin) |
 | **Code Editor** | [react-simple-code-editor](https://github.com/satya164/react-simple-code-editor) or [@monaco-editor/react](https://github.com/suren-atoyan/monaco-react) |
 | **Markdown Rendering** | [react-markdown](https://github.com/remarkjs/react-markdown) |
-| **AI Integration** | [Vercel AI SDK](https://sdk.vercel.ai/) + [OpenAI](https://openai.com/) |
+| **AI Integration** | [Vercel AI SDK](https://sdk.vercel.ai/) + [Google Gemini](https://ai.google.dev/) |
 | **UI Components** | [lucide-react](https://lucide.dev/) |
 | **Notifications** | [sonner](https://sonner.emilkowal.ski/) |
 | **Theme Management** | [next-themes](https://github.com/pacocoursey/next-themes) |
@@ -107,7 +107,7 @@ Full dark mode support with carefully chosen colors for comfortable reading and 
 ### Prerequisites
 - Node.js 18.0 or higher
 - npm or yarn package manager
-- OpenAI API key ([get one here](https://platform.openai.com/api-keys))
+- Google Gemini API key ([get one here](https://aistudio.google.com/app/apikey))
 
 ### Installation
 
@@ -127,9 +127,9 @@ Full dark mode support with carefully chosen colors for comfortable reading and 
    cp .env.example .env.local
    ```
    
-   Edit `.env.local` and add your OpenAI API key:
+   Edit `.env.local` and add your Gemini API key:
    ```env
-   OPENAI_API_KEY=sk_test_your_key_here
+   GOOGLE_GENERATIVE_AI_API_KEY=your_gemini_api_key_here
    ```
 
 4. **Start development server**

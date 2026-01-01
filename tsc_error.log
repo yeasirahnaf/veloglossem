@@ -1,0 +1,1 @@
+src/app/api/generate/route.ts(15,19): error TS2551: Property 'toDataStreamResponse' does not exist on type 'StreamTextResult<ToolSet, Output<string, string>>'. Did you mean 'toTextStreamResponse'?

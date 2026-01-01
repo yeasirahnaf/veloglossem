@@ -2,7 +2,7 @@
 
 ## Project Description
 
-The **AI-Powered Markdown Documentation Generator** is a sophisticated web application that streamlines the creation of professional documentation using artificial intelligence. Powered by OpenAI's language models, this tool enables developers and technical writers to generate high-quality markdown documentation in real-time through a modern, intuitive interface.
+The **AI-Powered Markdown Documentation Generator** is a sophisticated web application that streamlines the creation of professional documentation using artificial intelligence. Powered by Google's Gemini 2.5 AI, this tool enables developers and technical writers to generate high-quality markdown documentation in real-time through a modern, intuitive interface.
 
 ### Key Features
 - **Real-time AI-Powered Generation**: Stream markdown documentation as it's being generated using Vercel's AI SDK
@@ -33,7 +33,7 @@ The **AI-Powered Markdown Documentation Generator** is a sophisticated web appli
 
 2. **Install AI & UI Dependencies**
    ```bash
-   npm install ai @ai-sdk/openai
+   npm install ai @ai-sdk/google
    npm install lucide-react
    npm install react-markdown
    npm install react-simple-code-editor
@@ -45,7 +45,7 @@ The **AI-Powered Markdown Documentation Generator** is a sophisticated web appli
 3. **Environment Configuration**
    - Create `.env.local` file with:
      ```
-     OPENAI_API_KEY=your_api_key_here
+     GOOGLE_GENERATIVE_AI_API_KEY=your_gemini_api_key_here
      ```
    - Add `.env.local` to `.gitignore`
 
