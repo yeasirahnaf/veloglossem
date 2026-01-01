@@ -301,7 +301,7 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Vercel AI SDK Docs](https://sdk.vercel.ai/)
-- [OpenAI API Reference](https://platform.openai.com/docs/api-reference)
+- [Google AI Studio API Reference](https://ai.google.dev/api)
 - [Tailwind CSS Guide](https://tailwindcss.com/docs)
 - [React Markdown Guide](https://github.com/remarkjs/react-markdown)
 
@@ -309,7 +309,7 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 ## 🔮 Future Enhancements
 
-- [ ] Support for additional AI models (Claude, Gemini, Llama)
+- [ ] Support for additional AI models (Claude, OpenAI, Llama)
 - [ ] Multi-language documentation generation
 - [ ] Integration with GitHub for automatic documentation updates
 - [ ] IDE plugins for VSCode and JetBrains
@@ -356,7 +356,7 @@ Built with ❤️ by the VeloGossem team.
 
 Special thanks to:
 - [Vercel](https://vercel.com/) for the AI SDK
-- [OpenAI](https://openai.com/) for the language models
+- [Google Gemini](https://ai.google.dev/) for the language models
 - [Next.js](https://nextjs.org/) community
 - Our amazing contributors
 

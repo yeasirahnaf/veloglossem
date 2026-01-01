@@ -362,7 +362,7 @@ The **AI-Powered Markdown Documentation Generator** is a sophisticated web appli
 | **Typography** | @tailwindcss/typography | Professional markdown styling |
 | **Code Editor** | react-simple-code-editor or @monaco-editor/react | Input editing |
 | **Markdown Rendering** | react-markdown | Output preview |
-| **AI Integration** | Vercel AI SDK + OpenAI | Streaming LLM responses |
+| **AI Integration** | Vercel AI SDK + Google Gemini | Streaming LLM responses |
 | **Icons** | lucide-react | UI icons |
 | **Notifications** | sonner or react-hot-toast | User feedback |
 | **Theme Management** | next-themes | Dark/light mode |
@@ -384,7 +384,7 @@ The **AI-Powered Markdown Documentation Generator** is a sophisticated web appli
 ## Notes & Best Practices
 
 1. **AI Streaming**: Always test with slower network connections to ensure streaming UX is smooth
-2. **API Rate Limiting**: Implement request throttling to avoid OpenAI quota issues
+2. **API Rate Limiting**: Implement request throttling to avoid Google Gemini quota issues
 3. **Cost Management**: Monitor API usage; consider implementing usage limits per user
 4. **Mobile First**: Test on mobile devices early; don't treat it as an afterthought
 5. **Accessibility**: Use semantic HTML, test with screen readers, ensure keyboard navigation
@@ -414,7 +414,7 @@ Days 15+:   Polish & Deploy    ███░░░░░░░░░░░░░�
 npx create-next-app@latest velogossem --typescript --tailwind --app
 
 # Install dependencies
-npm install ai @ai-sdk/openai lucide-react react-markdown react-simple-code-editor next-themes sonner
+npm install ai @ai-sdk/google lucide-react react-markdown react-simple-code-editor next-themes sonner
 
 # Development
 npm run dev
